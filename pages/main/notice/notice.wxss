@@ -1,0 +1,36 @@
+/* notice.wxss */
+
+.notice-container {
+  padding: 0rpx 48rpx 48rpx 48rpx;
+  align-items: center;
+}
+
+.notice-date {
+  font-size: 24rpx;
+  background-color: lightgray;
+  color: whitesmoke;
+  padding: 5rpx 18rpx 0rpx 18rpx;
+  margin-bottom: 32rpx;
+  margin-top: 64rpx;
+}
+
+.notice-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: gray;
+  padding: 20rpx 16rpx 26rpx 16rpx;
+  font-size: 30rpx;
+}
+
+.notice-title {
+  font-size: 36rpx;
+  color: black;
+  margin-bottom: 2rpx;
+}
+
+.notice-source {
+  font-size: 24rpx;
+  margin-bottom: 12rpx;
+}

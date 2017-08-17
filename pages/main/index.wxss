@@ -1,0 +1,49 @@
+/* pages/main/index.wxss */
+.main-pic {
+  width: 100%;
+  margin: 0rpx;
+}
+
+.main-group-item {
+  padding: 24rpx;
+  margin-bottom: 2rpx;
+  background-color: #FFFFFF;
+}
+
+.main-group-hd {
+  display: flex;
+  height: 45rpx;
+  align-items: center;
+  font-size: 24rpx;
+}
+
+.main-group-hd-icon {
+  width: 10rpx;
+  height: 32rpx;
+  background-color: lightskyblue;
+  margin-right: 12rpx;
+}
+
+.flex-wrp{
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  /* flex: 4;  */
+}
+
+.main-group-bd-item {
+  flex: 0 0 25%; 
+  height: 175.5rpx; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 26rpx;
+  text-align: center;
+}
+
+.kind-list-img {
+  width: 60rpx;
+  height: 60rpx;
+  margin-bottom: 8rpx;
+}

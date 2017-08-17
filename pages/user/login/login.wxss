@@ -1,0 +1,31 @@
+/* login.wxss */
+.login-container {
+  padding: 40rpx 30rpx 0rpx 30rpx;
+  align-items: stretch;
+  width: auto;
+}
+
+.login-input {
+  padding: 0rpx 12rpx 0rpx 12rpx;
+  background-color: white;
+  margin-bottom: 2rpx;
+  font-size: 34rpx;
+  height: 90rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.login-input-hint {
+  color: lightgreen;
+  font-size: 24rpx;
+}
+
+.login-icon {
+  width: 44rpx;
+  margin-right: 16rpx;
+}
+
+.login-submit-button {
+  margin: 32rpx 48rpx 0rpx 48rpx;
+}

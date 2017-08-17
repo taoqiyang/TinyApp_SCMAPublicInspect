@@ -1,0 +1,27 @@
+<!--pages/main/index.wxml-->
+<view style="height: 100%;">
+  <view class="container">
+    <image class="main-pic" src="resources/pic/img_home.jpg" mode="widthFix"></image>
+    <block wx:for-items="{{pList}}" wx:key="{{item.id}}">
+      <view class="main-group-item">
+        <view id="{{item.id}}" class="main-group-hd">
+          <view class="main-group-hd-icon"></view>
+          <view>{{item.name}}</view>
+        </view>
+
+        <view class="flex-wrp">
+          <block wx:for-items="{{item.pages}}" wx:for-item="page" wx:key="{{page.id}}">
+             <view wx:if="{{page.isMethod}}" bindtap="{{page.page}}" class="main-group-bd-item">
+              <image class="kind-list-img" src="resources/kind/{{page.id}}.png"></image>
+              <text>{{page.name}}</text>
+            </view>
+            <navigator wx:else url="{{page.page + '&title=' + page.name}}" class="main-group-bd-item">
+              <image class="kind-list-img" src="resources/kind/{{page.id}}.png"></image>
+              <text>{{page.name}}</text>
+            </navigator>
+          </block>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

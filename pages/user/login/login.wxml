@@ -1,0 +1,17 @@
+<!--login.wxml-->
+<form class="container login-container" bindsubmit="loginSubmit" style="{{state.submiting ? 'color:gray;' : 'color:black;'}}">
+
+<text class="login-input-hint" style="{{hint.phone_input_hint != '' ? 'color:red;' : 'color:lightgreen;'}}">{{hint.phone_input_hint ? hint.phone_input_hint : "仅支持11位的手机号码"}}</text>
+ <view class="login-input">
+    <image src="../resource/ic_phone.png" mode="widthFix" class="login-icon"></image>
+    <input disabled="{{state.submiting}}" name="phoneNumber" value="{{user.phone}}" maxlength="11" placeholder="请输入手机号" type="number" bindinput="phoneChanged" />
+  </view>
+
+  <text class="login-input-hint">{{hint.password_input_hint ? hint.password_input_hint : ""}}</text>
+  <view class="login-input">
+    <image src="../resource/ic_password.png" mode="widthFix" class="login-icon"></image>
+    <input disabled="{{state.submiting}}" name="password" value="{{user.password ? '######' : ''}}" maxlength="12" placeholder="请输入密码" password type="text" bindinput="passwordChanged" />
+  </view>
+
+  <button loading="{{state.submiting}}" disabled="{{!state.validPhone || !state.validPassword}}" class="login-submit-button" type="primary" formType="submit">{{state.submiting ? "登录中,请稍候..." : "登录"}}</button>
+</form>

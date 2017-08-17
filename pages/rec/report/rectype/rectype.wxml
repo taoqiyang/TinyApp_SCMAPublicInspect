@@ -1,0 +1,20 @@
+<!--rectype.wxml-->
+<view class="container rectype-container">
+
+  <block wx:for="{{rectypes}}" wx:key="{{item.id}}" >
+
+    <view wx:if="{{index % 2 == 0}}" class="rectype-row">
+        <view class="rectype-item" bindtap="go2Report" data-index="{{index}}">
+          <image src="{{'resource/ic_report_' + item.id  + '.png'}}" class="rectype-img" ></image>
+          <text class="rectype-name">{{item.name}}</text>
+        </view>
+
+        <view wx:if="{{rectypes.length > index + 1}}" class="rectype-item" bindtap="go2Report" data-index="{{index + 1}}">
+          <image src="{{'resource/ic_report_' + rectypes[index + 1].id  + '.png'}}" class="rectype-img" ></image>
+          <text class="rectype-name">{{rectypes[index + 1].name}}</text>
+        </view>
+    </view>
+
+  </block>
+
+</view>

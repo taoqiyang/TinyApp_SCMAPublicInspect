@@ -1,0 +1,2 @@
+<!--disclaimer.wxml-->
+<rich-text nodes="{{nodes}}"></rich-text>

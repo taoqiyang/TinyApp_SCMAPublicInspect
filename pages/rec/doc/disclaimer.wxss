@@ -1,0 +1,29 @@
+/* disclaimer.wxss */
+/*-------------------------------------------------*/
+/* = 免责声明界面
+/*-------------------------------------------------*/
+.disclaimerBox {
+	padding: 20rpx;
+}
+
+.disclaimerBox_h1 {
+	color: black;
+  font-size: 44rpx;
+}
+
+.line {
+  margin-top: 14rpx;
+  margin-bottom: 36rpx;
+}
+
+.disclaimerBox_h5 {
+  color: #282828;
+  font-size: 32rpx;
+  margin-bottom: 4rpx;
+}
+
+.disclaimerBox_p {
+	margin-bottom:18rpx;
+  font-size: 32rpx;
+	color: #282828;
+}

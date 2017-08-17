@@ -1,0 +1,16 @@
+<!--notice.wxml-->
+<import src="../../common/empty.wxml" />
+<template wx:if="{{noticeList.length==0}}" is="empty" data="{{networking: networking}}" />
+<view wx:else class="container notice-container">
+  <block wx:for-items="{{noticeList}}" wx:for-item="notice" wx:key="{{notice.noticeID}}">
+
+    <text class="notice-date">{{notice.publishTime}}</text>
+
+    <view class="notice-content">
+    <text class="notice-title">{{notice.title}}</text>
+    <text class="notice-source">{{notice.infoSrc}}</text>
+    <text >{{notice.detail}}</text>
+    </view>
+
+  </block>
+</view>
