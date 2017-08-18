@@ -1,8 +1,8 @@
 // var host = "http://scwechat.iok.la/SCWeChat"
 // var host = "http://192.168.11.8/SCWeChat"
 // var host = "http://wx.yzsz.gov.cn/SCPI"
-// var host = "http://192.168.11.8:8080/SCPI"
-var host = "http://172.192.100.6:999/SCPI/"
+var host = "http://192.168.11.8:8080/SCPI"
+// var host = "http://172.192.100.6:999/SCPI/"
 var configs = {
   host,
   newsList: `${host}/httpE.htm?action=piGetNewsList`,

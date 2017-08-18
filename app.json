@@ -69,12 +69,10 @@
     "pages/rec/report/report",
     "pages/rec/doc/disclaimer",
     "pages/rec/doc/report_notice",
-    "pages/user/regist_findpwd/verify_code",
-    "pages/user/regist_findpwd/verify_code",
-    "pages/user/regist_findpwd/verify_code",
-    "pages/user/regist_findpwd/regist",
+    "pages/user/regist_findpwd/verifycode",
     "pages/user/regist_findpwd/findpwd",
-    "pages/user/login/login"
+    "pages/user/login/login",
+    "pages/user/regist_findpwd/regist"
   ],
   "window": {
     "backgroundTextStyle": "dark",
