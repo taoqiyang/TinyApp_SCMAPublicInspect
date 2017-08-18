@@ -223,6 +223,17 @@ Page({
         })
       }
     })
+  },
 
+  regist: function () {
+    wx.navigateTo({
+      url: '../regist_findpwd/verifycode?purpose=1'
+    })
+  },
+
+  findpwd: function() {
+    wx.navigateTo({
+      url: '../regist_findpwd/verifycode?purpose=2'
+    })
   }
 })

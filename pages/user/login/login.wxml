@@ -13,5 +13,14 @@
     <input disabled="{{state.submiting}}" name="password" value="{{user.password ? '######' : ''}}" maxlength="12" placeholder="请输入密码" password type="text" bindinput="passwordChanged" />
   </view>
 
+  
+
   <button loading="{{state.submiting}}" disabled="{{!state.validPhone || !state.validPassword}}" class="login-submit-button" type="primary" formType="submit">{{state.submiting ? "登录中,请稍候..." : "登录"}}</button>
+
+  <view class="login-regist-findpwd">
+    <text class="login-regist-findpwd-text" bindtap="regist"> 用户注册</text>
+    <view class="login-regist-findpwd-separator"></view>
+    <text class="login-regist-findpwd-text" bindtap="findpwd">忘记密码</text>
+  </view>
+
 </form>

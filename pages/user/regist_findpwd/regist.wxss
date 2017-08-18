@@ -1,1 +1,11 @@
 /* regist.wxss */
+@import "../login/login.wxss";
+
+.user-head {
+  margin: 12rpx 0 28rpx 0;
+  height: 200rpx;
+  width: 200rpx;
+  border-radius: 100rpx;
+  align-self: center;
+  display: flex;
+}

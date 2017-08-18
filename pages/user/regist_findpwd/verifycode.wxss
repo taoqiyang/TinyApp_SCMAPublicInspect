@@ -1,0 +1,23 @@
+/* regist.wxss */
+@import "../login/login.wxss";
+
+.regist_verifycode_container {
+  height: 50%;
+  flex-grow: 1;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.regist_verifycode-separator {
+  height: 80%;
+  background-color: gray;
+  width: 2rpx;
+}
+
+.regist_verifycode-text {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 26rpx;
+}

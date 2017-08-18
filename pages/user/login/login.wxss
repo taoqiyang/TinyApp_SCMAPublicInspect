@@ -1,4 +1,5 @@
 /* login.wxss */
+
 .login-container {
   padding: 40rpx 30rpx 0rpx 30rpx;
   align-items: stretch;
@@ -14,6 +15,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  border-radius: 10rpx;
 }
 
 .login-input-hint {
@@ -28,4 +30,27 @@
 
 .login-submit-button {
   margin: 32rpx 48rpx 0rpx 48rpx;
+}
+
+.login-regist-findpwd {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 128rpx;
+  color: black;
+  font-size: 28rpx;
+  height: 30rpx;
+}
+
+.login-regist-findpwd-text {
+  line-height: 100%;
+  height: 100%;
+  padding: 12rpx 12rpx 12rpx 12rpx;
+}
+
+.login-regist-findpwd-separator {
+  height: 100%;
+  background-color: black;
+  width: 2rpx;
 }

@@ -1,0 +1,22 @@
+<!--regist.wxml-->
+<form class="container login-container" bindsubmit="submit" style="{{state.submiting ? 'color:gray;' : 'color:black;'}}">
+
+  <text class="login-input-hint" style="{{!state.validPhone && hint.phone_input_hint != '' ? 'color:red;' : 'color:lightgreen;'}}">{{hint.phone_input_hint ? hint.phone_input_hint : "仅支持11位的手机号码"}}</text>
+  <view class="login-input">
+    <image src="../resource/ic_phone.png" mode="widthFix" class="login-icon"></image>
+    <input disabled="{{state.submiting}}" name="phoneNumber" maxlength="11" placeholder="请输入手机号" type="number" bindinput="phoneChanged" />
+  </view>
+
+  <text class="login-input-hint">{{hint.verifycode_input_hint ? hint.verifycode_input_hint : "验证码为6位随机数字"}}</text>
+  <view class="login-input">
+    <image src="../resource/ic_password.png" mode="widthFix" class="login-icon"></image>
+    <input disabled="{{state.submiting}}" name="verifycode" maxlength="6" placeholder="请输入验证码" type="number" bindinput="verifycodeChanged" />
+
+    <view class="regist_verifycode_container">
+      <view class="regist_verifycode-separator "></view>
+      <text class="regist_verifycode-text" disable="{{state.submiting || !state.validPhone || hint.verifycodeHint}}" style="{{state.submiting || !state.validPhone || hint.verifycodeHint ? 'color:gray;' : ''}}" bindtap="sendVerifycode">{{hint.verifycodeHint ? hint.verifycodeHint : "发送验证码"}}</text>
+    </view>
+  </view>
+
+  <button loading="{{state.submiting}}" disabled="{{!state.validPhone || !state.validVerifycode}}" class="login-submit-button" type="primary" formType="submit">{{state.submiting ? "验证中,请稍候..." : "下一步"}}</button>
+</form>
