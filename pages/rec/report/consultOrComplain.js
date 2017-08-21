@@ -1,18 +1,17 @@
-// report.js
+// consultOrComplain.js
+//大部分直接从report.js里拷贝没有修改
 const baseConfs = require('../../../configs')
 const configs = require('configs')
-const REPORT_TYPE_NORMAL = 1
 
 var mobileValidate = require('../../../utils/verifys.js').mobileValidate
 
 var title
 
-
 var checkReportParams = function (that, e) {
   var desc = e.detail.value.desc
   if (desc.trim().length === 0) {
     wx.showToast({
-      title: '问题描述不能为空哦~~',
+      title: '描述信息不能为空哦~~',
       image: baseConfs.warnToastImage,
       duration: 1500
     })
@@ -35,20 +34,10 @@ var checkReportParams = function (that, e) {
     })
     return false
   }
-
-  var rec = that.data.rec
-  if (!rec.address || rec.address.length === 0) {
-    wx.showToast({
-      title: '得选取一个上报地点哦~~',
-      image: baseConfs.warnToastImage,
-      duration: 1500
-    })
-    return false
-  }
   return true
 }
 
-var uploadMedia = function(that, params){
+var uploadMedia = function (that, params) {
   wx.showNavigationBarLoading()
   wx.showLoading({
     title: '上传中,请稍微...',
@@ -78,7 +67,7 @@ var uploadMedia = function(that, params){
           title: '上传成功',
           duration: 1500
         })
-        if(params.success){
+        if (params.success) {
           params.success(resp)
         }
       } else {
@@ -100,7 +89,7 @@ var uploadMedia = function(that, params){
         duration: 1500
       })
       if (params.fail) {
-          params.fail()
+        params.fail()
       }
     },
     complete: function (res) {
@@ -116,6 +105,7 @@ Page({
    */
   data: {
     config: {
+      uploadMediaEnable: configs.consultUploadMediaEnable,
       maxImageCount: configs.uploadImageCountMax,
       videoEnable: configs.uploadVideoEnalbe
     },
@@ -126,45 +116,13 @@ Page({
     uploadVideo: ""
   },
 
-  chooseLocation: function () {
-    if(this.data.reportSuccessed){
-      console.log("已经上报成功，点击了选择位置")
-      return;
-    }
-    var that = this
-    wx.chooseLocation({
-      success: function (res) {
-        var rec = that.data.rec
-        rec.address = res.address
-        rec.longtitude = res.longitude
-        rec.latitude = res.latitude
-
-        var locationMarker = that.locationMarker || {}
-        locationMarker.latitude = res.latitude
-        locationMarker.longitude = res.longitude
-        locationMarker.address = res.address
-        that.setData({
-          locationMarker: locationMarker,
-          address: res.address
-        })
-      },
-      fail: function (e) {
-        wx.showToast({
-          title: '选取位置失败',
-          image: baseConfs.warnToastImage,
-          duration: 1500
-        })
-      }
-    })
-  },
-
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    if (!options.rectypeID) {
+    if (!options.reportTypeID && !options.title) {
       wx.showToast({
-        title: '没有选择案件类型，直接回退',
+        title: '没有选择上报类型，直接回退',
         image: baseConfs.errorToastImage,
         duration: 1500
       })
@@ -172,14 +130,12 @@ Page({
       })
       return
     }
+    title = options.title
     var rec = this.data.rec
-    rec.recTypeID = options.rectypeID
-    rec.recTypeName = options.rectypeName
-    title = options.title ? options.title : "上报案件"
+    rec.reportTypeID = options.reportTypeID
+
     var user = getApp().globalData.userInfo
-    
     this.setData({
-      rec: rec,
       user: user ? {
         mobile: user.mobile,
         userName: user.userName
@@ -200,7 +156,7 @@ Page({
     if (!checkReportParams(this, e)) {
       return
     }
-    if(getApp().globalData.demo){
+    if (getApp().globalData.demo) {
       this.data.rec.recID = 345
       wx.showToast({
         title: '上报成功_demo',
@@ -213,7 +169,6 @@ Page({
     }
 
     var rec = this.data.rec
-    var user = this.data.user
     rec.recDesc = e.detail.value.desc
     rec.reporterMobile = e.detail.value.phoneNumber
     rec.reporterName = user ? user.userName : "匿名用户"
@@ -221,14 +176,9 @@ Page({
     var reporterType = user ? 0 : 1 //1代表游客上报
     var params = {
       reporterMobile: rec.reporterMobile,
-      reportTypeID: REPORT_TYPE_NORMAL,
-      recTypeID: rec.recTypeID,
-      recTypeName: rec.recTypeName,
+      reportTypeID: rec.reportTypeID,
       recSource: 'smallapp',
       recDesc: rec.recDesc,
-      address: rec.address,
-      coordX: rec.longtitude,
-      coordY: rec.latitude,
       reporterName: rec.reporterName,
       reporterType: reporterType
     }
@@ -273,7 +223,7 @@ Page({
           duration: 1500
         })
       },
-      complete: function (res) { 
+      complete: function (res) {
         wx.hideNavigationBarLoading()
         that.setData({
           reporting: false,
@@ -284,12 +234,12 @@ Page({
   },
 
   chooseImage: function () {
-    if(!this.data.reportSuccessed){
-        //not report yet
-        return;
+    if (!this.data.reportSuccessed) {
+      //not report yet
+      return;
     }
     var imageList = this.data.uploadImageList
-    if (imageList.length >= configs.uploadImageCountMax){
+    if (imageList.length >= configs.uploadImageCountMax) {
       wx.showToast({
         title: '上传图片数已达到上限',
         image: baseConfs.warnToastImage,
@@ -305,13 +255,13 @@ Page({
       count: 1,
       sizeType: ['compressed'],
       sourceType: configs.uploadImageOnlyCamera ? ['camera'] : ['album', 'camera'],
-      success: function(res) {
+      success: function (res) {
         //upload
         uploadMedia(that, {
           file: res.tempFiles[0],
           mediaID: mediaID,
           mediaTypeID: 0,
-          success: function(resp){
+          success: function (resp) {
             imageList.push(res.tempFilePaths[0])
             that.setData({
               uploadImageList: imageList
@@ -322,7 +272,7 @@ Page({
     })
   },
 
-  previewImage: function(e){
+  previewImage: function (e) {
     var imageList = this.data.uploadImageList
     wx.previewImage({
       current: imageList[e.target.dataset.index],
@@ -330,7 +280,7 @@ Page({
     })
   },
 
-  chooseVideo: function(){
+  chooseVideo: function () {
     if (!this.data.reportSuccessed) {
       //not report yet
       return;
@@ -341,7 +291,7 @@ Page({
     wx.chooseVideo({
       sourceType: configs.uploadVideoOnlyCamera ? ['camera'] : ['album', 'camera'],
       maxDuration: configs.videoMaxDuration,
-      success: function(res) {
+      success: function (res) {
         //upload
         uploadMedia(that, {
           file: {
@@ -357,7 +307,7 @@ Page({
           }
         })
       },
-      fail: function(res) {
+      fail: function (res) {
         wx.showToast({
           title: '视频选取失败',
           image: baseConfs.warnToastImage,

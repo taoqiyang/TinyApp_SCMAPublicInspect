@@ -19,9 +19,26 @@ App({
       self.globalData.networking = res.isConnected;
       self.globalData.networkType = res.networkType;
     })
-
-
   },
+
+  loginSuccess: function(user){
+    var newUserInfo = {
+      userID: user.userID,
+      userName: user.userName,
+      mobile: user.mobile,
+      password: user.userPwd,
+      gender: user.gender,
+      mark: user.mark,
+      loginTime: Date.now(),
+      headImgPath: user.headImgPath
+    }
+    wx.setStorage({
+      key: 'user',
+      data: newUserInfo
+    })
+    this.globalData.userInfo = newUserInfo
+  },
+  
 
   globalData: {
     userInfo: null,

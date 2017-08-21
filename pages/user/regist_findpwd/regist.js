@@ -141,8 +141,10 @@ Page({
   submit: function (e) {
     var username = e.detail.value.username
     var password = e.detail.value.password
+    var state = this.data.state
+    state.submiting = true
     this.setData({
-      submiting: true
+      state: state
     })
     var that = this
     var wcUser = this.data.wcUser
@@ -155,7 +157,8 @@ Page({
         userName: username,
         userPwd: md5(password),
         gender: wcUser.gender ? wcUser.gender : -1,
-        address: wcUser.address ? wcUser.address : ""
+        address: wcUser.address ? wcUser.address : "",
+        headImgPath: wcUser.head
       },
       header: {
         'content-type': 'application/x-www-form-urlencoded'
@@ -179,8 +182,9 @@ Page({
             }
           })
         } else {
+          state.submiting = false
           that.setData({
-            submiting: false
+            state: state
           })
           wx.showToast({
             title: res.data.data,
@@ -190,8 +194,9 @@ Page({
         }
       },
       fail: function (res) {
+        state.submiting = false
         that.setData({
-          submiting: false
+          state: state
         })
         wx.showToast({
           title: baseConfs.networkErrorText,

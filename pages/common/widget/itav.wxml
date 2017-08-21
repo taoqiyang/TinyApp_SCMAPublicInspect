@@ -1,0 +1,8 @@
+<template name="itav">
+  <view class="itav-container" style="{{view_container}}{{state_disable ? 'color:#ababab;' : ''}}" bindtap="{{state_disable == 'true' ? '' :  event_bindtap}}">
+    <image src="{{data_iconSrc}}" mode="widthFix" class="itav-icon"></image>
+    <view class="itav-left-text">{{data_title}}</view>
+    <view class="itav-right-text {{state_disable || !data_rightText || data_rightText == '' ? 'invisible' : ''}}">{{data_rightText}}</view>
+    <view class="itav-arrow {{view_hideArrow || state_disable ? 'invisible' : ''}}"></view>
+  </view>
+</template>

@@ -10,20 +10,7 @@ var redirectTo
 
 
 var go2Next = function (that, user) {
-  var newUserInfo = {
-    userID: user.userID,
-    userName: user.userName,
-    mobile: user.mobile,
-    password: user.userPwd,
-    gender: user.gender,
-    mark: user.mark,
-    loginTime: Date.now()
-  }
-  wx.setStorage({
-    key: 'user',
-    data: newUserInfo
-  })
-  getApp().globalData.userInfo = newUserInfo
+  getApp().loginSuccess(user)
   if (redirectTo) {
     wx.redirectTo({
       url: redirectTo
@@ -177,8 +164,10 @@ Page({
       password = this.data.user.password
     }
 
+    var state = this.data.state
+    state.submiting = true
     this.setData({
-      submiting: true
+      state: state
     })
 
     var that = this
@@ -202,8 +191,9 @@ Page({
           })
           go2Next(that, JSON.parse(res.data.data))
         } else {
+          state.submiting = false
           that.setData({
-            submiting: false
+            state: state
           })
           wx.showToast({
             title: res.data.data,
@@ -213,8 +203,9 @@ Page({
         }
       },
       fail: function (res) {
+        state.submiting = false
         that.setData({
-          submiting: false
+          state: state
         })
         wx.showToast({
           title: baseConfs.networkErrorText,
@@ -231,7 +222,7 @@ Page({
     })
   },
 
-  findpwd: function() {
+  findpwd: function () {
     wx.navigateTo({
       url: '../regist_findpwd/verifycode?purpose=2'
     })

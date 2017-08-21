@@ -1,4 +1,7 @@
 // index.js
+const baseConfs = require('../../configs')
+
+
 Page({
 
   /**
@@ -20,16 +23,13 @@ Page({
    */
   onReady: function () {
     console.log("onReady")
-    wx.navigateTo({
-      url: '../user/login/login'
-    })
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    if (!this.data.user && getApp().globalData.userInfo){
+    if (!this.data.user && getApp().globalData.userInfo) {
       this.setData({
         user: getApp().globalData.userInfo
       })
@@ -43,31 +43,19 @@ Page({
     console.log("onHide")
   },
 
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-    console.log("onUnload")
+  go2Login: function () {
+    wx.navigateTo({
+      url: '../user/login/login'
+    })
   },
 
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-  
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-  
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-  
+  logout: function() {
+    getApp().globalData.userInfo = null
+    // wx.reLaunch({
+    //   url: '../main/index'
+    // })
+    this.setData({
+      user: null
+    })
   }
 })

@@ -1,1 +1,2 @@
 /* findpwd.wxss */
+@import "../login/login.wxss";

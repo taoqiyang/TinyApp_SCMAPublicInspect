@@ -41,7 +41,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    if (!options.purpose){
+    if (!options.purpose) {
       wx.showToast({
         title: "没有purpose，不知道你要干嘛，直接返回",
         image: baseConfs.errorToastImage,
@@ -95,7 +95,7 @@ Page({
         verifyPhoneTask = wx.request({
           url: checkUserRegistUrl + "&mobile=" + phone,
           success: function (res) {
-            if(res.data.code != 0){
+            if (res.data.code != 0) {
               return;
             }
             var newState
@@ -163,8 +163,10 @@ Page({
       return
     }
 
+    var state = this.data.state
+    state.submiting = true
     this.setData({
-      submiting: true
+      state: state
     })
 
     var that = this
@@ -183,8 +185,9 @@ Page({
         if (res.data.code == 0) {
           next(that, mobile)
         } else {
+          state.submiting = false
           that.setData({
-            submiting: false
+            state: state
           })
           wx.showToast({
             title: res.data.data,
@@ -194,8 +197,9 @@ Page({
         }
       },
       fail: function (res) {
+        state.submiting = false
         that.setData({
-          submiting: false
+          state: state
         })
         wx.showToast({
           title: baseConfs.networkErrorText,

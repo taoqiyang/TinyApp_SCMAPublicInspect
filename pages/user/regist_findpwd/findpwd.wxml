@@ -1,2 +1,17 @@
 <!--findpwd.wxml-->
-<text>findpwd.wxml</text>
+<form bindsubmit="submit" style="{{state.submiting ? 'color:gray;' : 'color:black;'}}">
+  <view class="container login-container">
+  <view class="login-input">
+    <image src="../resource/ic_password.png" mode="widthFix" class="login-icon"></image>
+    <input disabled="{{state.submiting}}" name="password" password  maxlength="12" placeholder="请输入新密码" type="text" bindinput="passwordChanged" />
+  </view>
+
+  <view class="login-input">
+    <image src="../resource/ic_password.png" mode="widthFix" class="login-icon"></image>
+    <input disabled="{{state.submiting}}" name="repassword" password maxlength="12" placeholder="请再次输入密码" type="text" bindinput="repasswordChanged" />
+  </view>
+
+  <button loading="{{state.submiting}}" disabled="{{!state.validPassword || !state.validRepassword}}" class="login-submit-button" type="primary" formType="submit">{{state.submiting ? "请求中,请稍候..." : "下一步"}}</button>
+
+  </view>
+</form>

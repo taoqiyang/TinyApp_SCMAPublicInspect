@@ -229,10 +229,59 @@ swiper {
 }
 
 
+/* self made */
 .full-screen-single-child-central{
   width: 100%;
   height:100%;
   display:flex;
   align-items:center;
   justify-content:center;
+}
+
+
+.itav-container {
+  display: flex;
+  padding: 22rpx 6rpx 22rpx 26rpx;
+  background-color: white;
+  color: #282828;
+  align-items: center;
+}
+
+.itav-icon {
+  width: 54rpx;
+  margin-right: 20rpx;
+}
+
+.itav-left-text {
+  flex: 2;
+  font-size: 32rpx;
+}
+
+.itav-right-text {
+  flex: 1;
+  font-size: 28rpx;
+  text-align: center;
+}
+
+.itav-arrow {
+  padding-right: 26rpx;
+  position: relative;
+}
+.itav-arrow:after {
+  content: " ";
+  display: inline-block;
+  height: 18rpx;
+  width: 18rpx;
+  border-width: 2rpx 2rpx 0 0;
+  border-color: #888888;
+  border-style: solid;
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  position: absolute;
+  top: 50%;
+  margin-top: -8rpx;
+  right: 26rpx;
+}
+
+.invisible {
+  visibility: hidden;
 }

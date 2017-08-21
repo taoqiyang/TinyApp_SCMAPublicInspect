@@ -1,31 +1,9 @@
+<!--consultOrComplain.wxml-->
 <!--report.wxml-->
 <form bindsubmit="reportSubmit" style="{{reportSuccessed || reporting ? 'color:gray;' : 'color:black;'}}">
 
-  <view class="report-baseinfo" style="{{locationMarker && locationMarker.address != '' ? '' : 'margin-bottom: 32rpx;'}}">
-    <textarea disabled="{{reporting || reportSuccessed}}" name="desc" placeholder="请输入问题描述" class="report-desc" maxlength="240" />
-
-    <view class="report-address" bindtap="chooseLocation" disable="{{reportSuccessed}}" >
-      <image style="width: 26rpx; margin-right: 4px;" src="resource/ic_report_location.png" mode="widthFix"></image>
-      <text style="padding-top:4rpx;">{{locationMarker.address ? locationMarker.address : "点击选择位置"}}</text>
-    </view>
-
-      <map
-        id="map"
-        wx:if="{{locationMarker && locationMarker.address != ''}}"
-        markers="{{[locationMarker]}}"
-        latitude="{{locationMarker.latitude}}"
-        longitude="{{locationMarker.longitude}}"
-        class="report-map"
-        scale="17"
-        show-location
-        >
-      </map>
-
-  </view>
-
-  <view wx:if="{{rec.recTypeID}}" class="report-otherinfo">
-    <image src="{{'resource/ic_rectype_' + rec.recTypeID + '.png'}}" mode="widthFix" class="report-icon"></image>
-    <text>{{rec.recTypeName}}</text>
+  <view class="report-baseinfo" style="margin-bottom: 32rpx;">
+    <textarea disabled="{{reporting || reportSuccessed}}" name="desc" placeholder="请输入描述信息" class="report-desc" maxlength="240" />
   </view>
 
   <view class="report-otherinfo">
@@ -33,12 +11,12 @@
     <input disabled="{{reporting || reportSuccessed || user.mobile}}" name="phoneNumber" value="{{user.mobile}}" placeholder="请输入手机号码" type="number" />
   </view>
 
-  <button loading="{{reporting}}" class="report-submit-button" disabled="{{reportSuccessed}}" type="primary" formType="submit">{{reportSuccessed ? "上报成功" : (reporting ? "上报中,请稍候": "上报")}}</button>
+  <button loading="{{reporting}}" class="report-submit-button" disabled="{{reportSuccessed}}" type="primary" formType="submit">{{reportSuccessed ? "上报成功" : (reporting ? "上报中,请稍候...": "上报")}}</button>
 
 </form>
 
 
-<view class="report-image-container">
+<view wx:if="{{config.uploadMediaEnable}}" class="report-image-container">
   <view class="weui-uploader__hd">
     <view wx:if="{{!reportSuccessed}}" class="weui-uploader__title">上报成功后可以添加多媒体附件</view>
     <block wx:else>

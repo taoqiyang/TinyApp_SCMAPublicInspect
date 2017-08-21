@@ -72,7 +72,8 @@
     "pages/user/regist_findpwd/verifycode",
     "pages/user/regist_findpwd/findpwd",
     "pages/user/login/login",
-    "pages/user/regist_findpwd/regist"
+    "pages/user/regist_findpwd/regist",
+    "pages/rec/report/consultOrComplain"
   ],
   "window": {
     "backgroundTextStyle": "dark",

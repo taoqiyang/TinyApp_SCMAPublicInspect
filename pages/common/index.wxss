@@ -1,0 +1,9 @@
+.common-colored-bg {
+  background-color: #1395e7;
+  color: white;
+}
+
+.common-button {
+  background-color: #1395e7;
+  color: #fff;
+}

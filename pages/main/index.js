@@ -1,5 +1,44 @@
 // pages/main/index.js
 const phoneNumber = require('../../configs').phoneReportNumber
+const loginUrl = require('../user/config').loginUrl
+
+var autoLogin = function (that){
+  console.log("autoLogin start----")
+  wx.getStorage({
+    key: 'user',
+    success: function (res) {
+      var user = res.data
+      if(!user){
+        return
+      }
+      wx.request({
+        url: loginUrl,
+        data: {
+          mobile: user.mobile,
+          userPwd: user.password
+        },
+        header: {
+          'content-type': 'application/x-www-form-urlencoded'
+        },
+        method: 'POST',
+        success: function (res) {
+          if (res.data.code == 0) {
+            console.log("autoLogin success")
+            getApp().loginSuccess(JSON.parse(res.data.data))
+          } else {
+            console.log("autoLogin fail:" + res.data.data)
+          }
+        },
+        fail: function (res) {
+          console.log("autoLogin fail:" + res)
+        }
+      })
+
+
+    }
+  })
+}
+
 Page({
 
   /**
@@ -20,7 +59,8 @@ Page({
           {
             id: 'citizen_consult',
             name: '咨询投诉',
-            page: ''
+            isMethod: true,
+            page: 'chooseConsultOrComplain'
           },
           {
             id: 'citizen_phone_report',
@@ -87,9 +127,23 @@ Page({
     ]
   },
 
-  phoneReport: function() {
+  phoneReport: function () {
     wx.makePhoneCall({
       phoneNumber: phoneNumber //仅为示例，并非真实的电话号码
+    })
+  },
+
+  chooseConsultOrComplain: function () {
+    var itemList = ["咨询", "投诉"]
+    wx.showActionSheet({
+      itemList: itemList,
+      success: function (res) {
+        if(res.tapIndex >= 0){
+          wx.navigateTo({
+            url: '../rec/report/consultOrComplain?title=' + itemList[res.tapIndex] + '&repotTypeID=' + (res.tapIndex + 1),
+          })
+        }
+      }
     })
   },
 
@@ -97,6 +151,6 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-   
+    autoLogin(this)
   }
 })
