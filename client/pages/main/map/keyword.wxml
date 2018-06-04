@@ -1,0 +1,6 @@
+<!--pages/main/map/keyword.wxml-->
+<view class='container'>
+  <input  class="keyword_input" maxlength="10" bindinput="bindInput" placeholder="请输入想要查找的关键字"/>
+
+  <button class="keyword-button" type="primary" bindtap='bindClick' formType="submit">查找一下</button>
+</view>

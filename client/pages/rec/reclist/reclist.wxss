@@ -1,0 +1,114 @@
+/* reclist.wxss */
+.reclist-item-rec {
+  display: flex;
+  flex-direction: row;
+  align-self: stretch;
+  margin: 0 24rpx 24rpx 24rpx;
+  padding: 20rpx;
+  background-color: white;
+}
+
+.reclist-item-rec-user {
+  width: 90rpx;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20rpx;
+}
+
+.reclist-item-rec-user-head {
+  width: 90rpx;
+  height: 90rpx;
+}
+
+.reclist-item-rec-user-name {
+  width: 90rpx;
+  text-align: center;
+  font-size: 24rpx;
+  margin-top: 4rpx;
+}
+
+.reclist-item-rec-info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.reclist-item-rec-info-text {
+  font-size: 28rpx;
+}
+
+.reclist-item-rec-info-basic {
+  font-size: 28rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.reclist-item-rec-info-basic-state {
+  color: #ffbe9b;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+.reclist-item-rec-info-line {
+  background-color: #888888;
+  height: 2rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}
+
+.reclist-media-list {
+  display: flex;
+  flex-flow: row wrap;
+}
+.reclist-media-item{
+  flex: 0 0 31%; 
+  height: 180rpx;
+  width: 0rpx;
+  margin-right: 10rpx;
+  margin-bottom: 5rpx;
+  background-color: lightgray;
+}
+
+.reclist-media-swiper {
+  height: 380rpx;
+  background-color: lightgray;
+  margin-top: 10rpx;
+}
+
+.reclist-media-item-swiper{
+  /* height: 400rpx; */
+  z-index: -1;
+  display: inline;
+}
+
+
+.reclist-item-rec-info-address {
+  padding: 0rpx 20rpx 0rpx 16rpx;
+  background-color: #f8f8f8;
+  margin-top: 16rpx;
+  height: 46rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 22rpx;
+  align-self: flex-start;
+  max-width: 480rpx;
+}
+
+.reclist-item-rec-info-address-text {
+  padding-top:4rpx;
+  color: black;
+  font-size: 26rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.reclist-item-rec-info-replay {
+  margin-top: 16rpx;
+  padding: 8rpx 16rpx 10rpx 16rpx;
+  font-size: 26rpx;
+  background-color: #f8f8f8;
+  border-radius: 4rpx;
+}

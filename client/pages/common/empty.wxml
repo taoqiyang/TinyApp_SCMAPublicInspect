@@ -1,0 +1,12 @@
+<template name="empty">
+  <view class="full-screen-single-child-central">
+    <view wx:if="{{networking}}" style='display:flex; flex-direction:column; align-items:center;'>
+      <image  mode="widthFix" style="width: 250rpx;" src="/images/pic_empty.png"></image>
+      <text style='color:#707070; font-size: 34rpx; margin-top:12rpx;'>暂无数据</text>
+    </view>
+    <view wx:else style='display:flex; flex-direction:column; align-items:center;'>
+      <image mode="widthFix" style="width: 250rpx;"  src="/images/pic_network_error.png"></image>
+      <text style='color:#707070; font-size: 34rpx;'>网络异常</text>
+      </view>
+  </view>
+</template>

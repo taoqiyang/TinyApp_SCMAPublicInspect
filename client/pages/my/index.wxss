@@ -1,0 +1,40 @@
+/* index.wxss */
+@import '../common/index.wxss';
+
+.my-container {
+  align-items: stretch;
+}
+
+.my-userinfo {
+  background-color: #1AAD19;
+  /* padding: 46rpx; */
+  height: 212rpx;
+  padding-left: 46rpx;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24rpx;
+}
+
+.my-user-head {
+  margin: 0rpx 34rpx 0 0;
+  height: 120rpx;
+  width: 120rpx;
+  border-radius: 60rpx;
+  display: flex;
+}
+
+.my-user-detailinfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.logout-button {
+  margin: 32rpx 48rpx 64rpx 48rpx;
+}
+
+.setting-text {
+  align-self: flex-end;
+  font-size: 24rpx;
+  padding: 20rpx 30rpx 4rpx 20rpx;
+}

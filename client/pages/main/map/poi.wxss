@@ -1,0 +1,44 @@
+/* pages/main/map/poi.wxss */
+.poi-item-container {
+  background-color: white;
+  padding: 24rpx 24rpx 24rpx 24rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 24rpx 24rpx 24rpx;
+  border-radius: 6rpx;
+}
+
+.poi-item-info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: stretch;
+  margin-right: 24rpx;
+}
+
+.poi-item-info-title {
+  font-size: 32rpx;
+  margin-bottom: 2rpx;
+}
+
+.poi-item-info-address {
+  font-size: 24rpx;
+}
+
+.poi-item-info-distance {
+  font-size: 22rpx;
+  color: gray;
+}
+
+.poi-item-btn {
+  background-color: #09BB07;
+  height: 100rpx;
+  width: 100rpx;
+  color: white;
+  font-size: 32rpx;
+  border-radius: 50rpx;
+  /* border: 2rpx solid lightgray; */
+  text-align: center;
+  line-height: 100rpx;
+}

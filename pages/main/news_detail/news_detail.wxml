@@ -1,6 +1,0 @@
-<!--news_detail.wxml-->
-<view class="container news-detail-container">
-  <image src="{{news.pic}}" mode="widthFix" class="news-detail-focus-img"></image>
-  <text class="news-detail-item-info-title">{{news.title}}</text>
-  <text class="news-detail-item-info-content">{{news.detail}}</text>
-</view>

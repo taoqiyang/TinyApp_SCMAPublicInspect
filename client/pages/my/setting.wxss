@@ -1,0 +1,50 @@
+/* pages/my/setting.wxss */
+@import "../common/lib/weui.wxss";
+
+.setting-item-container {
+  align-self: stretch;
+  background-color: white;
+  padding: 24rpx 24rpx 24rpx 24rpx;
+  display: flex;
+  flex-direction: column;
+  margin: 12rpx 24rpx 12rpx 24rpx;
+  border-radius: 6rpx;
+}
+
+.setting-item-title {
+  font-size: 36rpx;
+  margin-bottom: 6rpx;
+}
+
+.radio {
+  margin-right: 20rpx;
+  font-size: 32rpx;
+}
+
+
+
+
+.reclist-media-list {
+  display: flex;
+  flex-flow: row wrap;
+}
+.reclist-media-item{
+  flex: 0 0 31%; 
+  height: 180rpx;
+  width: 0rpx;
+  margin-right: 10rpx;
+  margin-bottom: 5rpx;
+  background-color: lightgray;
+}
+
+.reclist-media-swiper {
+  height: 380rpx;
+  background-color: lightgray;
+  margin-top: 10rpx;
+}
+
+.reclist-media-item-swiper{
+  /* height: 400rpx; */
+  z-index: -1;
+  display: inline;
+}

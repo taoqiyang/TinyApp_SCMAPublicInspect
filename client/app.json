@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/main/index",
+    "pages/my/index",
+    "pages/main/news/news",
+    "pages/main/news_detail/news_detail",
+    "pages/main/notice/notice",
+    "pages/rec/report/rectype/rectype",
+    "pages/rec/report/report",
+    "pages/rec/doc/disclaimer",
+    "pages/rec/doc/report_notice",
+    "pages/user/regist_findpwd/verifycode",
+    "pages/user/regist_findpwd/findpwd",
+    "pages/user/login/login",
+    "pages/user/regist_findpwd/regist",
+    "pages/rec/report/consultOrComplain",
+    "pages/rec/reclist/reclist",
+    "pages/main/map/poi",
+    "pages/main/map/keyword",
+    "pages/my/setting"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationBarTitleText": "全民城管PLUS",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/main/index",
+        "iconPath": "images/icon_main.png",
+        "selectedIconPath": "images/icon_main_HL.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "images/icon_my.png",
+        "selectedIconPath": "images/icon_my_HL.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 30000,
+    "connectSocket": 10000,
+    "uploadFile": 60000,
+    "downloadFile": 60000
+  },
+  "debug": false
+}

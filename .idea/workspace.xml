@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0f5f3671-a174-4823-b1ba-d9e2cd06c317" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/configs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/image/green_tri.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/image/icon64_appwx_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/image/icon_API.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/image/icon_API_HL.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/image/icon_component.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/image/icon_component_HL.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/image/icon_foot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/image/location.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/image/pause.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/image/play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/image/plus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/image/record.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/image/stop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/image/trash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/image/wechat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/image/wechatHL.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/index.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/index.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/index.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/action-sheet/action-sheet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/action-sheet/action-sheet.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/action-sheet/action-sheet.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/action-sheet/action-sheet.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/animation/animation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/animation/animation.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/animation/animation.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/animation/animation.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/background-audio/background-audio.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/background-audio/background-audio.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/background-audio/background-audio.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/background-audio/background-audio.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/canvas/canvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/canvas/canvas.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/canvas/canvas.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/canvas/canvas.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/canvas/example.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/choose-location/choose-location.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/choose-location/choose-location.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/choose-location/choose-location.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/choose-location/choose-location.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/custom-message/custom-message.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/custom-message/custom-message.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/custom-message/custom-message.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/custom-message/custom-message.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/custom-service/custom-service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/custom-service/custom-service.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/custom-service/custom-service.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/custom-service/custom-service.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/download-file/download-file.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/download-file/download-file.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/download-file/download-file.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/download-file/download-file.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/file/file.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/file/file.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/file/file.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/file/file.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/get-location/get-location.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/get-location/get-location.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/get-location/get-location.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/get-location/get-location.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/get-network-type/get-network-type.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/get-network-type/get-network-type.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/get-network-type/get-network-type.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/get-network-type/get-network-type.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/get-system-info/get-system-info.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/get-system-info/get-system-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/get-system-info/get-system-info.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/get-system-info/get-system-info.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/get-user-info/get-user-info.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/get-user-info/get-user-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/get-user-info/get-user-info.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/get-user-info/get-user-info.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/image/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/image/image.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/image/image.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/image/image.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/login/login.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/login/login.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/login/login.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/login/login.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/make-phone-call/make-phone-call.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/make-phone-call/make-phone-call.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/make-phone-call/make-phone-call.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/make-phone-call/make-phone-call.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/modal/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/modal/modal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/modal/modal.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/modal/modal.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/navigation-bar-loading/navigation-bar-loading.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/navigation-bar-loading/navigation-bar-loading.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/navigation-bar-loading/navigation-bar-loading.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/navigation-bar-loading/navigation-bar-loading.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/navigator/navigator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/navigator/navigator.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/navigator/navigator.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/navigator/navigator.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/on-accelerometer-change/on-accelerometer-change.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/on-accelerometer-change/on-accelerometer-change.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/on-accelerometer-change/on-accelerometer-change.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/on-accelerometer-change/on-accelerometer-change.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/on-compass-change/compass.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/on-compass-change/on-compass-change.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/on-compass-change/on-compass-change.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/on-compass-change/on-compass-change.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/on-compass-change/on-compass-change.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/open-location/open-location.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/open-location/open-location.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/open-location/open-location.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/open-location/open-location.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/pull-down-refresh/pull-down-refresh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/pull-down-refresh/pull-down-refresh.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/pull-down-refresh/pull-down-refresh.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/pull-down-refresh/pull-down-refresh.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/request-payment/request-payment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/request-payment/request-payment.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/request-payment/request-payment.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/request-payment/request-payment.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/request/request.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/request/request.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/request/request.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/request/request.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/scan-code/scan-code.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/scan-code/scan-code.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/scan-code/scan-code.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/scan-code/scan-code.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/sendMessage/sendMessage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/sendMessage/sendMessage.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/sendMessage/sendMessage.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/sendMessage/sendMessage.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/set-navigation-bar-title/set-navigation-bar-title.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/set-navigation-bar-title/set-navigation-bar-title.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/set-navigation-bar-title/set-navigation-bar-title.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/set-navigation-bar-title/set-navigation-bar-title.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/share/share.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/share/share.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/share/share.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/share/share.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/storage/storage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/storage/storage.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/storage/storage.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/storage/storage.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/template-message/template-message.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/template-message/template-message.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/template-message/template-message.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/template-message/template-message.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/toast/toast.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/toast/toast.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/toast/toast.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/toast/toast.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/upload-file/upload-file.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/upload-file/upload-file.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/upload-file/upload-file.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/upload-file/upload-file.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/video/video.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/video/video.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/video/video.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/video/video.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/voice/voice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/voice/voice.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/voice/voice.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/voice/voice.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/web-socket/web-socket.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/web-socket/web-socket.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/web-socket/web-socket.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/pages/web-socket/web-socket.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/resources/kind/api.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/resources/kind/device.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/resources/kind/feedback.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/resources/kind/location.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/resources/kind/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/resources/kind/media.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/resources/kind/network.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/resources/kind/page.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/API/resources/kind/storage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/common/foot.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/common/head.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/common/index.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/common/lib/weui.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/index.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/index.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/index.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/audio/audio.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/audio/audio.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/audio/audio.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/audio/audio.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/button/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/button/button.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/button/button.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/button/button.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/canvas/canvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/canvas/canvas.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/canvas/canvas.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/canvas/canvas.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/checkbox/checkbox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/checkbox/checkbox.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/checkbox/checkbox.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/checkbox/checkbox.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/form/form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/form/form.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/form/form.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/form/form.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/icon/icon.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/icon/icon.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/icon/icon.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/icon/icon.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/image/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/image/image.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/image/image.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/image/image.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/input/input.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/input/input.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/input/input.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/input/input.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/label/label.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/label/label.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/label/label.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/label/label.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/map/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/map/map.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/map/map.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/map/map.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/navigator/navigate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/navigator/navigate.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/navigator/navigate.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/navigator/navigate.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/navigator/navigator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/navigator/navigator.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/navigator/navigator.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/navigator/navigator.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/navigator/redirect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/navigator/redirect.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/navigator/redirect.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/navigator/redirect.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/picker/picker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/picker/picker.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/picker/picker.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/picker/picker.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/progress/progress.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/progress/progress.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/progress/progress.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/progress/progress.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/radio/radio.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/radio/radio.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/radio/radio.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/radio/radio.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/scroll-view/scroll-view.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/scroll-view/scroll-view.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/scroll-view/scroll-view.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/scroll-view/scroll-view.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/slider/slider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/slider/slider.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/slider/slider.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/slider/slider.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/swiper/swiper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/swiper/swiper.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/swiper/swiper.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/swiper/swiper.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/switch/switch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/switch/switch.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/switch/switch.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/switch/switch.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/text/text.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/text/text.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/text/text.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/text/text.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/textarea/textarea.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/textarea/textarea.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/textarea/textarea.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/textarea/textarea.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/video/video.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/video/video.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/video/video.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/video/video.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/view/view.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/view/view.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/view/view.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/pages/view/view.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/resources/kind/canvas.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/resources/kind/content.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/resources/kind/form.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/resources/kind/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/resources/kind/map.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/resources/kind/media.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/resources/kind/nav.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/resources/kind/view.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/resources/pic/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/page/component/resources/pic/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/util/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/vendor/qcloud-weapp-client-sdk/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/vendor/qcloud-weapp-client-sdk/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/vendor/qcloud-weapp-client-sdk/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/vendor/qcloud-weapp-client-sdk/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/vendor/qcloud-weapp-client-sdk/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/vendor/qcloud-weapp-client-sdk/lib/constants.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/vendor/qcloud-weapp-client-sdk/lib/login.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/vendor/qcloud-weapp-client-sdk/lib/request.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/vendor/qcloud-weapp-client-sdk/lib/session.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/vendor/qcloud-weapp-client-sdk/lib/tunnel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/vendor/qcloud-weapp-client-sdk/lib/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/vendor/qcloud-weapp-client-sdk/lib/wxTunnel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon_main.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon_main_HL.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon_my.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon_my_HL.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pic_empty.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pic_network_error.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pic_news_default.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/common/empty.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/common/index.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/common/lib/weui.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/common/widget/itav.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/main/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/main/index.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/main/index.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/main/index.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/main/news/news.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/main/news/news.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/main/news/news.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/main/news/news.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/main/news_detail/news_detail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/main/news_detail/news_detail.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/main/news_detail/news_detail.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/main/news_detail/news_detail.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/main/notice/notice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/main/notice/notice.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/main/notice/notice.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/main/notice/notice.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/main/resources/kind/citizen_consult.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/main/resources/kind/citizen_disclaimer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/main/resources/kind/citizen_phone_report.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/main/resources/kind/citizen_report.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/main/resources/kind/citizen_report_notice.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/main/resources/kind/dynamic_activity.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/main/resources/kind/dynamic_latest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/main/resources/kind/service_handbooks.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/main/resources/kind/service_laws.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/main/resources/kind/service_parkinglot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/main/resources/kind/service_toilet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/main/resources/pic/img_home.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/my/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/my/index.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/my/index.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/my/index.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/my/resources/ic_mark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/doc/disclaimer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/doc/disclaimer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/doc/disclaimer.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/doc/disclaimer.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/doc/report_notice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/doc/report_notice.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/doc/report_notice.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/doc/report_notice.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/report/configs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/report/consultOrComplain.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/report/consultOrComplain.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/report/consultOrComplain.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/report/consultOrComplain.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/report/rectype/rectype.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/report/rectype/rectype.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/report/rectype/rectype.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/report/rectype/rectype.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/report/rectype/resource/ic_report_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/report/rectype/resource/ic_report_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/report/rectype/resource/ic_report_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/report/rectype/resource/ic_report_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/report/rectype/resource/ic_report_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/report/rectype/resource/ic_report_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/report/report.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/report/report.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/report/report.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/report/report.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/report/resource/ic_rectype_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/report/resource/ic_rectype_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/report/resource/ic_rectype_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/report/resource/ic_rectype_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/report/resource/ic_rectype_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/report/resource/ic_rectype_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/report/resource/ic_report_iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/rec/report/resource/ic_report_location.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/user/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/user/login/login.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/user/login/login.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/user/login/login.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/user/login/login.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/user/regist_findpwd/findpwd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/user/regist_findpwd/findpwd.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/user/regist_findpwd/findpwd.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/user/regist_findpwd/findpwd.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/user/regist_findpwd/regist.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/user/regist_findpwd/regist.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/user/regist_findpwd/regist.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/user/regist_findpwd/regist.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/user/regist_findpwd/verifycode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/user/regist_findpwd/verifycode.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/user/regist_findpwd/verifycode.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/user/regist_findpwd/verifycode.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/user/resource/ic_default_head.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/user/resource/ic_password.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/user/resource/ic_phone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/utils/md5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/utils/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/utils/verifys.js" afterPath="" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="report.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/pages/rec/report/report.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="271" column="42" lean-forward="false" selection-start-line="271" selection-start-column="27" selection-end-line="271" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="empty.wxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/pages/common/empty.wxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="5" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reclist.wxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/pages/rec/reclist/reclist.wxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="63" lean-forward="false" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="configs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/configs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reclist.wxss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/pages/rec/reclist/reclist.wxss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.wxss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app.wxss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.wxss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/pages/common/index.wxss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reclist.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/pages/rec/reclist/reclist.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="51" column="44" lean-forward="true" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="util.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/utils/util.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.wxss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/pages/my/index.wxss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>request</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/client/utils/verifys.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/server/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="715" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="全民城管PLUS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="全民城管PLUS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="全民城管PLUS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="全民城管PLUS" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="全民城管PLUS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="全民城管PLUS" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="全民城管PLUS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="全民城管PLUS" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="rec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="全民城管PLUS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="全民城管PLUS" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="rec" type="462c0819:PsiDirectoryNode" />
+              <item name="reclist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="全民城管PLUS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="全民城管PLUS" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f5f3671-a174-4823-b1ba-d9e2cd06c317" name="Default" comment="" />
+      <created>1513562211110</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1513562211110</updated>
+      <workItem from="1513562217159" duration="2446000" />
+      <workItem from="1514337885894" duration="13663000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16109000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24292101" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.053156145" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/client/pages/rec/report/report.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="58" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="68" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/rec/report/report.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="62" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/rec/report/resource/ic_report_location.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/images/icon_main_HL.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/images/icon_my.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/images/icon_my_HL.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/images/icon_main.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="41" column="35" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/rec/report/report.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="58" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="68" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/utils/verifys.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/utils/fecha.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="119" lean-forward="true" selection-start-line="0" selection-start-column="98" selection-end-line="0" selection-end-column="119" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/rec/report/resource/ic_report_location.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/rec/report/report.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="62" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/main/news/news.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="106" column="66" lean-forward="true" selection-start-line="106" selection-start-column="66" selection-end-line="106" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/utils/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/my/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/rec/report/report.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="271" column="42" lean-forward="false" selection-start-line="271" selection-start-column="27" selection-end-line="271" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/common/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/common/empty.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/configs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/rec/reclist/reclist.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="63" lean-forward="false" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/rec/reclist/reclist.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/rec/reclist/reclist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="51" column="44" lean-forward="true" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

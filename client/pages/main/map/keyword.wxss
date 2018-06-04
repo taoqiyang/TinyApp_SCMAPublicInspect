@@ -1,0 +1,19 @@
+/* pages/main/map/keyword.wxss */
+@import "../../common/lib/weui.wxss";
+
+.keyword_container {
+  justify-content: flex-start;
+  align-items: center;
+}
+.keyword_input {
+  margin: 32rpx 48rpx 0 48rpx;
+  flex: 0;
+  height: 90rpx;
+  padding: 0 12rpx 0 16rpx;
+  background-color: white;
+  border-radius: 8rpx;
+}
+
+.keyword-button {
+  margin: 48rpx 48rpx 0rpx 48rpx;
+}

@@ -1,6 +1,0 @@
-<template name="empty">
-  <view class="full-screen-single-child-central">
-    <image wx:if="{{networking}}" mode="widthFix" style="width: 250rpx;" src="/images/pic_empty.png" ></image>
-    <image wx:else mode="widthFix" style="width: 250rpx;"  src="/images/pic_network_error.png"></image>
-  </view>
-</template>

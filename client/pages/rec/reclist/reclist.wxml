@@ -1,0 +1,54 @@
+<!--reclist.wxml-->
+<import src="../../common/empty.wxml" />
+<template wx:if="{{recList.length==0}}" is="empty" data="{{networking: networking}}" />
+
+<view class="container">
+  <view wx:for-items="{{recList}}" wx:for-item="rec" wx:key="{{rec.recID}}" class="reclist-item-rec">
+    <view class="reclist-item-rec-user">
+      <image class="reclist-item-rec-user-head" src="resources/ic_rec_head.png"></image>
+      <view class="reclist-item-rec-user-name">{{rec.reporterName}}</view>
+    </view>
+
+    <view class="reclist-item-rec-info">
+      <view class="reclist-item-rec-info-basic">
+        <text>{{rec.reportTypeID === 1 ? rec.recTypeName : rec.reportTypeName}}</text> 
+        <text class="reclist-item-rec-info-basic-state">{{rec.recStateName}}</text> 
+        <text >{{rec.reportTime}}</text> 
+      </view>
+
+      <view class="reclist-item-rec-info-line"></view>
+
+      <text class="reclist-item-rec-info-text">{{rec.recDesc}}</text> 
+      
+      <block wx:if="{{rec.mediaList && rec.mediaList.length > 0}}">
+        <view wx:if="{{configs.mediaDisplayMode === 'grid'}}" class="reclist-media-list">
+          <block wx:for-items="{{rec.mediaList}}" wx:for-item="media" wx:key="{{media.mediaID}}">
+            <image wx:if="{{media.mediaType == 'photo'}}" class="reclist-media-item" src="{{media.mediaPath}}" bindtap="previewImage" data-media-list="{{rec.mediaList}}" data-item="{{media}}" ></image>
+            <video wx:elif="{{media.mediaType == 'video'}}" src="{{media.mediaPath}}" class="reclist-media-item"></video>
+          </block>
+        </view>
+        <swiper wx:elif="{{configs.mediaDisplayMode === 'swiper'}}" indicator-dots="{{rec.mediaList.length > 1}}" indicator-active-color="#ffffff" indicator-color="rgba(255,255,255,.45)" class="reclist-media-swiper">
+          <block wx:for="{{rec.mediaList}}" wx:for-item="media" wx:key="{{media.mediaID}}">
+            <swiper-item wx:if="{{media.mediaType == 'photo' || media.mediaType == 'video'}}">
+              <image wx:if="{{media.mediaType == 'photo'}}" class="reclist-media-item-swiper" src="{{media.mediaPath}}" bindtap="previewImage" data-media-list="{{rec.mediaList}}" data-item="{{media}}" mode="aspectFill"></image>
+              <video wx:elif="{{media.mediaType == 'video'}}" src="{{media.mediaPath}}" class="reclist-media-item-swiper"></video>
+            </swiper-item>
+          </block>
+        </swiper>
+       </block>
+
+      <view wx:if="{{rec.address}}" class="reclist-item-rec-info-address" bindtap="displayLocation" data-rec="{{rec}}">
+        <image style="width: 24rpx; margin-right: 4px;" src="resources/ic_report_location.png" mode="widthFix"></image>
+        <text class="reclist-item-rec-info-address-text">{{rec.address}}</text>
+      </view>
+
+      <view wx:if="{{rec.finishReply}}" class="reclist-item-rec-info-replay">
+        <text style="color: #ffbe9b;">处理回复:</text>
+      {{rec.finishReply}}
+      </view>
+
+    </view>
+    
+  </view>
+
+</view>

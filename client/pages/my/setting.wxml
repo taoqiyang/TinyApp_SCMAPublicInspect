@@ -1,0 +1,30 @@
+<!--pages/my/setting.wxml-->
+<view class='container'>
+
+  <view class='setting-item-container'>
+    <view class="setting-item-title">设置案件多媒体展示的样式</view>
+    <radio-group style="margin-bottom:18rpx;" bindchange="mediaDisplayModeRadioChange">
+      <label class="radio">
+        <radio value="swiper" checked="{{mediaDisplayMode === 'swiper'}}"/>滑块
+      </label>
+      <label class="radio">
+        <radio value="grid" checked="{{mediaDisplayMode === 'grid'}}"/>九宫格
+      </label>
+    </radio-group>
+
+    <view hidden="{{mediaDisplayMode !== 'grid'}}" class="reclist-media-list">
+          <block wx:for-items="{{mediaList}}" wx:for-item="media" wx:key="{{media.mediaID}}">
+            <image  class="reclist-media-item" src="{{media.mediaPath}}"></image>
+          </block>
+    </view>
+    <swiper hidden="{{mediaDisplayMode === 'grid'}}" indicator-dots="{{mediaList.length > 1}}" indicator-active-color="#ffffff" indicator-color="rgba(255,255,255,.45)" class="reclist-media-swiper">
+      <block wx:for="{{mediaList}}" wx:for-item="media" wx:key="{{media.mediaID}}">
+        <swiper-item>
+          <image class="reclist-media-item-swiper" src="{{media.mediaPath}}" mode="aspectFill"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  
+  </view>
+
+</view>

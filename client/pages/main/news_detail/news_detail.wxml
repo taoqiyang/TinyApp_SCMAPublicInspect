@@ -1,0 +1,10 @@
+<!--news_detail.wxml-->
+<view class="container news-detail-container">
+  <image src="{{news.pic}}" mode="widthFix" class="news-detail-focus-img"></image>
+  <text class="news-detail-item-info-title">{{news.title}}</text>
+  <view class="news-meta-info">
+    <text class="news-meta-info-text">来源:{{news.infoSrc ? news.infoSrc : 'unknow'}}</text>
+    <text class="news-meta-info-text">时间:{{news.publishTime}}</text>
+  </view>
+  <text class="news-detail-item-info-content">{{news.detail}}</text>
+</view>

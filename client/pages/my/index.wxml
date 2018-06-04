@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<import src="../common/widget/itav.wxml" />
+
+<view class="container my-container">
+
+  <view class="common-colored-bg my-userinfo">
+    <image class="my-user-head" mode="scaleToFill" src="{{user.headImgPath && user.headImgPath != '' ? user.headImgPath : '../user/resource/ic_default_head.png'}}"></image>
+    <view class="my-user-detailinfo">
+      <text wx:if="{{!user}}" bindtap="go2Login">登录/注册</text>
+      <block else>
+        <text>{{user.userName}}</text>
+        <text style="font-size: 28rpx; color:#efefef;">{{user.mobile}}</text>
+      </block>
+    </view>
+    <text class='setting-text' bindtap='go2Setting'>>>设置</text>
+  </view>
+
+  <block wx:for-items="{{recStates}}" wx:for-item="recState" wx:key="{{recState.name}}">
+    <navigator url="{{recState.num > 0 ? baseUrl + recState.name + '&recStateIDs=' + recState.ids : '' }}">
+      <template is="itav" data="{{data_title: recState.name, data_rightText: recState.num, data_iconSrc: recState.icon, view_container: 'margin-bottom: 2rpx;'}}" />
+    </navigator>
+  </block>
+
+  <template is="itav" data="{{state_disable: !user, view_hideArrow: true, data_title: '我的积分', data_rightText: user.mark + '', data_iconSrc: 'resources/ic_mark.png', view_container: 'margin-top: 22rpx;', event_bindtap: ''}}" />
+
+
+  <view style="flex-grow: 1"></view>
+
+  <button wx:if="{{user}}" class="logout-button" type="primary" bindtap="logout">退出登录</button>
+
+</view>

@@ -1,0 +1,14 @@
+<!--pages/main/map/poi.wxml-->
+<view class="container">
+  <view wx:for-items="{{pois}}" wx:for-item="poi" wx:key="{{poi.id}}" class="poi-item-container">
+
+    <view class='poi-item-info'>
+      <text class='poi-item-info-title'>{{poi.title}}</text>
+      <text class='poi-item-info-address'>{{poi.address}}</text>
+      <text class='poi-item-info-distance'>距离: {{poi._distance}} 米</text>
+    </view>
+
+    <text class="poi-item-btn" bindtap='showInMap' data-index="{{index}}">查看</text>
+
+  </view>
+</view>
